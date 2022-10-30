@@ -12,10 +12,10 @@ class SerHumano:
     # MÉTODO MOVERSE
     def moverse(self, pasos):
         self.distancia += pasos
-        print(self.nombre, 'ahora está a', self.distancia, 'pasos de la puerta.')
+        print(self.nombre, 'ahora se encuentra a', self.distancia, 'pasos de la puerta.')
 
 p1 = SerHumano('Juan',23,1.80,78,120)
-p1.moverse(-60)
+p1.moverse(60)
 
 
 
